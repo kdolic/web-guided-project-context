@@ -6,7 +6,7 @@ import FamilyTree from "./components/FamilyTree";
 import "./styles.scss";
 
 const FamilyContext = createContext();
-console.log(FamilyContext);
+console.log(FamilyContext.Provider);
 
 export default function App() {
   const [families] = useState(data);
